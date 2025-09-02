@@ -35,6 +35,7 @@ module.exports = {
             },
             {
                 test: /\.html$/i,
+                exclude: path.resolve(__dirname, 'src/index.html'),
                 loader: "html-loader",
             },
             {
