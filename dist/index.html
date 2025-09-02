@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Battleship</title>
+    <script defer src="bundle.js"></script></head>
+
+    <body>
+        <div class="head"></div>
+        <div class="mainContainer">
+            <div class="msg1"></div>
+            <div class="msg2"></div>
+            <div class="boards">
+                <div class="p1"></div>
+                <div class="p2"></div>
+            </div>
+            <div class="btns">
+                <button id="random">Random Place</button>
+                <button id="start">Start</button>
+                <button id="restart">Restart</button>
+            </div>
+            <div class="modes">
+                <fieldset>
+                    <legend>Select Play Mode</legend>
+                    <div>
+                        <input
+                            type="radio"
+                            id="com"
+                            name="player2"
+                            value="com"
+                            checked
+                        />
+                        <label for="com">VS Com</label>
+                    </div>
+                    <div>
+                        <input
+                            type="radio"
+                            id="p2Mode"
+                            name="player2"
+                            value="player2"
+                        />
+                        <label for="p2Mode">P2 Mode</label>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+        <footer>... BATTLESHIP ...</footer>
+    </body>
+</html>
